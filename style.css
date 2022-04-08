@@ -1,0 +1,30 @@
+h1{
+    color:#12b7b7 ;
+       background-color: white;
+   }
+   body{
+       background-color: yellow;
+       color: black;
+       font-weight: bolder;
+   }
+   #show_sketch{
+       float: right;
+   }
+   canvas{
+       background-color: white;
+       margin-top: 275;
+       border-radius: 20px;
+       border: 4px solid rgb(255, 255, 255);
+       animation-name: example;
+       animation-duration: 1s;
+       animation-iteration-count: infinite;
+   }
+   
+   @keyframes example {
+       from{box-shadow: 1px 3px 3px 20px crimson;}
+       to {box-shadow: 1px 3px 3px 20px orange;}
+   }
+
+#label, #confidence, #draw, #time{
+    font-size: 30;
+}
